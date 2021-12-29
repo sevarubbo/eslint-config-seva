@@ -51,6 +51,7 @@ module.exports = {
     "@typescript-eslint/consistent-type-imports": ["error"],
     "@typescript-eslint/indent": ["error", 2],
     "@typescript-eslint/member-delimiter-style": ["error"],
+    "@typescript-eslint/no-explicit-any": ["error"],
     "@typescript-eslint/no-unused-expressions": ["error"],
     "@typescript-eslint/no-unused-vars": ["error"],
     "@typescript-eslint/object-curly-spacing": ["error", "always"],
