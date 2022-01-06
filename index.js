@@ -32,7 +32,6 @@ module.exports = {
     "no-multi-spaces": ["error"],
     "no-multiple-empty-lines": ["error", { "max": 1, "maxEOF": 0, "maxBOF": 0 }],
     "no-trailing-spaces": ["error"],
-    "no-use-before-define": ["error"],
     "padded-blocks": ["error", "never"],
     "quotes": ["error", "double"],
     "semi": ["error"],
@@ -49,6 +48,7 @@ module.exports = {
     "@typescript-eslint/no-explicit-any": ["error"],
     "@typescript-eslint/no-unused-expressions": ["error"],
     "@typescript-eslint/no-unused-vars": ["error"],
+    "@typescript-eslint/no-use-before-define": ["error"],
     "@typescript-eslint/object-curly-spacing": ["error", "always"],
     "@typescript-eslint/padding-line-between-statements": [
       "error",
