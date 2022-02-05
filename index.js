@@ -23,7 +23,9 @@ module.exports = {
   rules: {
     "arrow-spacing": ["error"],
     "comma-spacing": ["error", { "before": false, "after": true }],
+    "consistent-return": "error",
     "eol-last": ["error"],
+    "eqeqeq": "error",
     "key-spacing": ["error"],
     "keyword-spacing": ["error"],
     "max-len": ["error", 120],
@@ -39,13 +41,19 @@ module.exports = {
 
     "import/newline-after-import": ["error", { "count": 1 }],
     "import/no-cycle": ["error"],
-    "import/order": ["error"],
+    "import/order": ["error", {
+      "groups": ["index", "sibling", "parent", "internal", "external", "builtin", "object", "type"],
+      "alphabetize": { "order": "asc", "caseInsensitive": true },
+    }],
 
+    "@typescript-eslint/brace-style": ["error"],
     "@typescript-eslint/comma-dangle": ["error", "always-multiline"],
     "@typescript-eslint/consistent-type-imports": ["error"],
     "@typescript-eslint/indent": ["error", 2],
     "@typescript-eslint/member-delimiter-style": ["error"],
     "@typescript-eslint/no-explicit-any": ["error"],
+    "@typescript-eslint/no-shadow": ["error"],
+    "@typescript-eslint/no-unnecessary-condition": "error",
     "@typescript-eslint/no-unused-expressions": ["error"],
     "@typescript-eslint/no-unused-vars": ["error"],
     "@typescript-eslint/no-use-before-define": ["error"],

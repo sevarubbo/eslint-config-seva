@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-seva",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "index.js",
   "repository": "https://github.com/sevarubbo/eslint-config-seva.git",
   "author": "Seva <seva.rubbo@gmail.com>",
